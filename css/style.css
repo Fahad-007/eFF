@@ -133,3 +133,61 @@ a:hover{
 	justify-content: flex-end;
 	color: #fff;
 }
+
+
+
+
+/*---------------student_list----------------------*/
+	
+	.school__name--text{
+		padding: 10px 0;
+	}
+	.school__name--text h5{
+		font-size: 18px;
+	}
+
+
+
+
+	.navigation-2{
+		width: 100%;
+		height: auto;
+	}
+	.navigation__items{
+		float: left;
+		margin-right: 2px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		list-style: none;
+		padding: 10px 20px;
+		font-size: 17px;
+		text-align: center;
+		color: #fff;
+		background-color: #990000;
+		transition: all .3s;
+	}
+	.navigation__items:hover{
+		background-color: #FF9900;
+	}
+	.navigation__items--last{
+		right: 0;
+		float: right;
+		margin: 0;
+	}
+	.school-heading{
+		width: 100%;
+	}
+
+
+
+
+	.button{
+		font-size: 15px;
+	}
+	.button i{
+		padding: 3px 6px;
+		font-size: 15px;
+		background-color: #990000;
+		color: #fff;
+		cursor: pointer;
+	}
