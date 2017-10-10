@@ -67,12 +67,19 @@ a:hover{
 }
 
 
+
 .loginForm{
 	height: auto;
-	padding: 0 50px;
+	padding: 26px 40px;
+	margin: 20px 50px;
 	left: 0;
 	float: right;
 	text-align: left;
+	border: 3px solid #990000;
+	transition: all .4s;
+}
+.loginForm:hover{
+	box-shadow: -3px 3px 5px 1px gray;
 }
 .main-body h4{
 	margin: 20px 0;
